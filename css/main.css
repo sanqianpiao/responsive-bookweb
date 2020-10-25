@@ -52,8 +52,10 @@ small {
     overflow: hidden;
 }
 
-.l-content-constrained {
-    padding-left: 270px;
+@media (min-width: 700px){
+    .l-content-constrained {
+        padding-left: 270px;
+    }
 }
 
 .l-row {
@@ -121,11 +123,18 @@ small {
     }
 
 .categories {
+    display: none;
     position: absolute;
     z-index: 100;
     font-size: 1.2em;
     line-height: 2em;
     padding: 0.5em 0;
+    }
+
+    @media (min-width: 700px){
+        .categories {
+            display: block;
+        }
     }
 
     .categories a {
