@@ -149,7 +149,7 @@ small {
     }
 
 .thumb {
-    float: left;
+    display: inline-block;
     height: 207px;
     margin: 0.5em 0.2em;
     }
