@@ -8,7 +8,7 @@ app.views.BooksList = Backbone.View.extend({
     render: function(){
         console.log("BooksList:render");
 
-        this.$el.html('<ul></ul>');
+        this.$el.html('<ul class="thumbs"></ul>');
         var $ul = this.$('ul');
 
         var bookPath = "#category/" + this.collection.catId + "/book/";

@@ -112,9 +112,9 @@ small {
     font-weight: 300;
     color: #fff;
     background-color: #1aa1e1;
-    float: left;
+    display: inline-block;
     }
-    .topbar-title > i {
+    .topbar-title i {
         font-size: 1.5em;
         margin-right: 0.5em;
     }
@@ -135,6 +135,10 @@ small {
         .categories {
             display: block;
         }
+
+        .category-toggle {
+            display: none;
+        }
     }
 
     .categories a {
@@ -147,6 +151,10 @@ small {
     .categories a:hover {
         background-color: #e5e5e5;
     }
+
+.thumbs {
+    text-align: center;
+}    
 
 .thumb {
     display: inline-block;
